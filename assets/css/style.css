@@ -16,6 +16,12 @@
 /**
  * Masthead
  */
+.interna {
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 0; /* Valor da Largura */
+	text-align: center;
+}
 
 .masthead-normal {
     display: none;
@@ -148,14 +154,16 @@
 }
 
 
-.bottom-links {
+.menu-line {
 	
-
+display: inline;
 
 	
 }
 
-
+#ri {
+	float: right;
+}
 #top-links .misc a {
     border-right: 1px solid #a7a8a6;
     display: inline-block;
@@ -169,12 +177,20 @@
 #top-links .misc a:active,
 #top-links .misc a:focus,
 #top-links .misc a:hover {
-    color: #ee7025;
-    text-decoration: none;
+	color: #297DEF;
+	text-decoration: none;
 }
 
+#menu li {
+	display: inline;
+	font-weight: bold;
+	
+}
 
+#menu a {
+	padding: 4px;
 
+}
 
 #top-links .lang {
     padding-left: 120px;
@@ -205,7 +221,9 @@
 }
 
 #masthead .masthead-mobile .nav {
-    margin-bottom: 15px;
+	margin-bottom: 15px;
+	margin-left: 20px;
+	display: inline-flex;
 }
 
 .masthead-mobile .d-flex {
@@ -217,12 +235,13 @@
 }
 
 .masthead-mobile .tel {
-    font-size: 14px;
-    color: #ee7025;
+	font-size: 14px;
+	color: #065c70;
 }
 
 .masthead-mobile .btn-orcamento {
     font-size: 12px;
+	 
 }
 
 .masthead-mobile .navbar-toggle {
@@ -239,11 +258,14 @@
 .cabeca {
 	float: left;
 }
+#ri{
+	float: right;
+}
 	.social-medias{
 	float: left;
-	margin-left: 260px;
+	margin-left: 220px;
 	display: inline;
-	margin-right: 290px;
+	margin-right: 310px;
 	max-height: 50%;
 }
  .tel{
@@ -1204,6 +1226,7 @@
 
 .text-orange {
     color: #ee7025 !important;
+	margin-left: 20pX;
 }
 
 @media (min-width: 992px) {
