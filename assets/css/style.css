@@ -259,11 +259,9 @@ display: inline;
 	display: inline-block;
 	float: none;
 	margin-top: -20px;
-	margin-right: 0px;
 	margin-left: 20px;
 	margin-bottom: 20px;
-}
-
+	{
 .cabeca {
 	float: left;
 }
