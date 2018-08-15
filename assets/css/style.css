@@ -251,11 +251,13 @@ display: inline;
 }
 
 #masthead .masthead-mobile .btn-orcamento {
-    display: inline-block;
-    float: none;
-    margin: 0;
-}
-
+	display: inline-block;
+	float: none;
+	margin-top: -20px;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+{
 .cabeca {
 	float: left;
 }
